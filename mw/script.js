@@ -1,5 +1,3 @@
-const welcomeButton = document.querySelector('#welcomeButton');
-const message = document.querySelector('#message');
 const backgroundImage = document.querySelector('.background-image');
 
 let animationFrame;
@@ -16,7 +14,3 @@ window.addEventListener('scroll', () => {
 }, { passive: true });
 
 moveBackground();
-
-welcomeButton.addEventListener('click', () => {
-  message.textContent = 'Hello from MW.';
-});
